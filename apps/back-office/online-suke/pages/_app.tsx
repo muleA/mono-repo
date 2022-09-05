@@ -46,7 +46,7 @@ const menus: Menu[] = [
   {
     name: 'Orders',
     shortName: 'order',
-    key: 'order/list',
+    key: 'orders/list',
     icon: Icon.IconGridPattern,
     roles: [],
   },
