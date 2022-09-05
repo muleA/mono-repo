@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import EntityList from './entity-list';
+import SharedTable from './shared-table';
 
-describe('EntityList', () => {
+describe('SharedTable', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<EntityList />);
+    const { baseElement } = render(<SharedTable />);
     expect(baseElement).toBeTruthy();
   });
 });
