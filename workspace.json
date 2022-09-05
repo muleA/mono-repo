@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "back-office-online-suke": "apps/back-office/online-suke",
+    "back-office-online-suke-e2e": "apps/back-office/online-suke-e2e",
+    "portal-online-suke": "apps/portal/online-suke",
+    "portal-online-suke-e2e": "apps/portal/online-suke-e2e",
+    "shared-layout": "libs/shared-layout"
+  }
+}
