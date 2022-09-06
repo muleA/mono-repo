@@ -1,5 +1,6 @@
+import ServiceList from '../../features/users/list'
 export default function OrdersList(){
   return(<>
-  <h1>orders list table</h1>
+<ServiceList/>
   </>)
 }

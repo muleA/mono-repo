@@ -52,10 +52,10 @@ const SideMenu = (props: Props) => {
         key={menu.key}
         className={
           currentMenu === menu
-            ? navToggle == true
-              ? 'bg-primary-50'
-              : 'nav-item relative'
-            : 'nav-item relative'
+            ? navToggle===true
+              ? 'bg-primary-50 tex-white'
+              : 'nav-item relative '
+            : 'nav-item relative '
         }
       >
         <Link
