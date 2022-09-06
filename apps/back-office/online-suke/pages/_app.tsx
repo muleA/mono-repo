@@ -25,28 +25,28 @@ const menus: Menu[] = [
   {
     name: 'Users',
     shortName: 'User',
-    key: 'users',
+    key: 'users/list',
     icon: Icon.IconUsers,
     roles: []
   },
   {
     name: 'Categories',
     shortName: 'Categories',
-    key: 'categories',
+    key: 'categories/list',
     icon: Icon.IconCategory2,
     roles: []
   },
   {
     name: 'Products',
     shortName: 'products',
-    key: 'products',
+    key: 'products/list',
     icon: Icon.IconBrandProducthunt,
     roles: [],
   },
   {
     name: 'Orders',
     shortName: 'order',
-    key: 'order',
+    key: 'orders/list',
     icon: Icon.IconGridPattern,
     roles: [],
   },

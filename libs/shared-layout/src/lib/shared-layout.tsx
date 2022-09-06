@@ -1,10 +1,8 @@
 import { css, Global } from '@emotion/react';
 import {useState } from 'react';
 import Header from './components/header';
-import Footer from './components/footer';
 import SideMenu from './components/side-menu';
 import { Menu } from './models/menu';
-import { useRouter } from 'next/router';
 
 /* Component props */
 interface IProps {
@@ -16,7 +14,7 @@ interface IProps {
 export const SharedLayout = ({ menus, children }: IProps) => {
   /* Component states */
   const [currentMenu, setCurrentMenu] = useState<Menu>();
-  const [currentApplication] = useState('eshop');
+  const [currentApplication] = useState('eShop');
 
   /* Variables */
   const currentDate: Date = new Date();
