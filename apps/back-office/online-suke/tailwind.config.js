@@ -20,7 +20,7 @@ module.exports = {
           700: '#2C5282',
           800: '#115e59',
           900: '#2A4365',
-          DEFAULT: '#4C51BF',
+          DEFAULT: '#4C51BF!important',
         },
         screens: {
           sm: '640px',

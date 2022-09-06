@@ -6,6 +6,7 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import '../styles/main.css';
+import favicon from '../public/icons/favicon.ico';
 
 const menus: Menu[] = [
   {
@@ -57,6 +58,13 @@ const menus: Menu[] = [
     icon: Icon.IconArchive,
     roles: [],
   },
+  {
+    name: 'Settings',
+    shortName: 'Settings',
+    key: 'settings',
+    icon: Icon.IconSettings,
+    roles: [],
+  },
 ];
 function CustomApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -64,6 +72,9 @@ function CustomApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>eShope</title>
+        <link rel="shortcut icon" href={favicon.src} type="image/x-icon" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="description" content="welcome " />
       </Head>
       <MantineProvider
         theme={{

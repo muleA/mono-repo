@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {},
     colors: ({ colors }) => ({
-      primary: '#63B3ED',
+      primary: '#63B3ED!important',
       secondary: '#BFDFF8',
       inherit: colors.inherit,
       current: colors.current,
@@ -38,7 +38,7 @@ module.exports = {
       pink: colors.pink,
       rose: colors.rose,
     }),
-    default:"#4C51BF"
+    default:"#4C51BF!important"
   },
   plugins: [],
 };

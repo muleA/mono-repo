@@ -15,7 +15,6 @@
     "@nrwl/next": "14.5.10",
     "@reduxjs/toolkit": "^1.8.5",
     "@tabler/icons": "^1.91.1",
-    "antd": "^4.22.7",
     "core-js": "^3.6.5",
     "i18next": "^21.9.1",
     "next": "12.2.3",
