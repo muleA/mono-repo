@@ -7,6 +7,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import '../styles/main.css';
 import favicon from '../public/icons/favicon.ico';
+import NextNProgress from 'nextjs-progressbar';
 
 const menus: Menu[] = [
   {
@@ -97,6 +98,12 @@ function CustomApp({ Component, pageProps }: AppProps) {
       >
         <main className="app">
               <SharedLayout menus={menus}>
+              <NextNProgress
+                      height={4}
+                      color="#f0b70c"
+                      options={{ easing: 'ease', speed: 500 }}
+                      showOnShallow={true}
+                    />
                 <Component {...pageProps} />
               </SharedLayout>
         </main>

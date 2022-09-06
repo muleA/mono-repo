@@ -20,6 +20,7 @@
       ],
       "@mulugeta/notification": ["libs/notification/src/index.ts"],
       "@mulugeta/pagination": ["libs/pagination/src/index.ts"],
+      "@mulugeta/shared-button": ["libs/shared-button/src/index.ts"],
       "@mulugeta/shared-table": ["libs/shared-table/src/index.ts"],
       "@shared-layout": ["libs/shared-layout/src/index.ts"]
     }
